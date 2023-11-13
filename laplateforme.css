@@ -1,0 +1,56 @@
+
+
+    /*...General...*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ws{
+    white-space: normal;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: skyblue;
+    
+}    
+.container-left{
+    text-align: center;
+    margin-top: 26em;
+}
+    /*...Header...*/
+    header{
+        height: 100%;
+        border: solid;
+    }
+
+    header nav{
+        float: right;
+        margin-top: 1.9em;
+        margin-right: 1.9em;
+    }
+    header nav ul li{
+        display: inline-block;
+    }
+    header nav ul li a{
+        text-transform: uppercase;
+        font-weight: bold;
+    }

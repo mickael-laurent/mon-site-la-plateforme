@@ -16,25 +16,50 @@ a{
     color: gray;
 }
 
-.ws{
+/*.ws{
     white-space: normal;
-}
+}*/
 
-.wrapper{
+/*.wrapper{
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
+}*/
+
+h2{
+    text-align: center;
+    margin-top: 20px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: skyblue;
+    background-color: blue;
     
 }    
 .container-left{
     text-align: center;
-    margin-top: 26em;
+    margin-top: 16em;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex article{
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: lightgray;
+    margin: 1%;
+    
+
 }
     /*...Header...*/
     header{

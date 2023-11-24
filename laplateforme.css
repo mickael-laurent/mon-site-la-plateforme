@@ -7,24 +7,6 @@
 }
 
 
-    
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: gray;
-}
-
-/*.ws{
-    white-space: normal;
-}*/
-
-/*.wrapper{
-    width: 940px;
-    margin: 0 auto;
-    padding: 0 10px;
-}*/
 
 h2{
     text-align: center;
@@ -36,7 +18,8 @@ h2{
     grid-template-columns: 1fr 1fr;
     background-color: blue;
     
-}    
+}
+
 .container-left{
     text-align: center;
     margin-top: 16em;
@@ -62,22 +45,30 @@ h2{
     font-size: 20px;
 
 }
+
     /*...Header...*/
-    header{
-        display: flex;
-        height: 100%;
-        border: solid;
+    header img {
+	    max-width: 50%;
+	    height: auto;
+}
+    header nav ul{
+        list-style: none;
+    }   
+    header nav ul li{
+        display: inline;
     }
 
-    header nav{
-        float: right;
-        margin-top: 1.9em;
-        margin-right: 1.9em;
-    }
-    header nav ul li{
-        display: inline-block;
-    }
     header nav ul li a{
         text-transform: uppercase;
         font-weight: bold;
+        text-decoration: none;
+        color: gray;
+        padding: 8px;
+        
     }
+
+    .site-header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
